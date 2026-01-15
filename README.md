@@ -4,6 +4,7 @@ Official source code for WWW 2026 paper: [Tail-Aware Data Augmentation for Long-
 
 
 ## Directory Structure
+```
 TADA/
 |--- data/ # preprocessed dataset files
 |--- src/
@@ -17,6 +18,7 @@ TADA/
      |--- modules.py
      |--- trainers.py
      |--- utils.py
+```
 
 ## Run the Code
 
