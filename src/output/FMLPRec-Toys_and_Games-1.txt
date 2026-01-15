@@ -1,0 +1,228 @@
+data_dir                       : ../data/                           
+output_dir                     : output/                            
+data_name                      : Toys_and_Games                     
+do_eval                        : False                              
+model_idx                      : 1                                  
+gpu_id                         : 0                                  
+no_cuda                        : False                              
+model_name                     : FMLPRec                            
+hidden_size                    : 64                                 
+num_hidden_layers              : 4                                  
+num_attention_heads            : 2                                  
+hidden_act                     : gelu                               
+attention_probs_dropout_prob   : 0.2                                
+hidden_dropout_prob            : 0.2                                
+initializer_range              : 0.02                               
+max_seq_length                 : 50                                 
+weight_decay                   : 0.0                                
+lr                             : 0.001                              
+batch_size                     : 256                                
+epochs                         : 500                                
+patience                       : 10                                 
+log_freq                       : 1                                  
+seed                           : 2025                               
+star_test                      : 100                                
+full_sort                      : True                               
+no_filters                     : False                              
+beta                           : 0.3                                
+head_ratio                     : 0.2                                
+rate_a                         : 0.61                               
+rate_b                         : 0.81                               
+top_k                          : 10                                 
+th                             : 0.5                                
+use_SI                         : True                               
+cuda_condition                 : True                               
+data_file                      : ../data/Toys_and_Games.txt         
+item_size                      : 11926                              
+log_file                       : output/FMLPRec-Toys_and_Games-1.txt
+Namespace(attention_probs_dropout_prob=0.2, batch_size=256, beta=0.3, cuda_condition=True, data_dir='../data/', data_file='../data/Toys_and_Games.txt', data_name='Toys_and_Games', do_eval=False, epochs=500, full_sort=True, gpu_id='0', head_ratio=0.2, hidden_act='gelu', hidden_dropout_prob=0.2, hidden_size=64, initializer_range=0.02, item_size=11926, log_file='output/FMLPRec-Toys_and_Games-1.txt', log_freq=1, lr=0.001, max_seq_length=50, model_idx=1, model_name='FMLPRec', no_cuda=False, no_filters=False, num_attention_heads=2, num_hidden_layers=4, output_dir='output/', patience=10, rate_a=0.61, rate_b=0.81, seed=2025, star_test=100, th=0.5, top_k=10, use_SI=True, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.3188'}
+{'epoch': 1, 'rec_avg_loss': '1.0005'}
+{'epoch': 2, 'rec_avg_loss': '0.9210'}
+{'epoch': 3, 'rec_avg_loss': '0.8974'}
+{'epoch': 4, 'rec_avg_loss': '0.8704'}
+{'epoch': 5, 'rec_avg_loss': '0.8601'}
+{'epoch': 6, 'rec_avg_loss': '0.8393'}
+{'epoch': 7, 'rec_avg_loss': '0.8199'}
+{'epoch': 8, 'rec_avg_loss': '0.8165'}
+{'epoch': 9, 'rec_avg_loss': '0.8255'}
+{'epoch': 10, 'rec_avg_loss': '0.8152'}
+{'epoch': 11, 'rec_avg_loss': '0.7934'}
+{'epoch': 12, 'rec_avg_loss': '0.7982'}
+{'epoch': 13, 'rec_avg_loss': '0.8092'}
+{'epoch': 14, 'rec_avg_loss': '0.7952'}
+{'epoch': 15, 'rec_avg_loss': '0.7947'}
+{'epoch': 16, 'rec_avg_loss': '0.7727'}
+{'epoch': 17, 'rec_avg_loss': '0.7702'}
+{'epoch': 18, 'rec_avg_loss': '0.7810'}
+{'epoch': 19, 'rec_avg_loss': '0.7691'}
+{'epoch': 20, 'rec_avg_loss': '0.7651'}
+{'epoch': 21, 'rec_avg_loss': '0.7565'}
+{'epoch': 22, 'rec_avg_loss': '0.7561'}
+{'epoch': 23, 'rec_avg_loss': '0.7706'}
+{'epoch': 24, 'rec_avg_loss': '0.7584'}
+{'epoch': 25, 'rec_avg_loss': '0.7673'}
+{'epoch': 26, 'rec_avg_loss': '0.7556'}
+{'epoch': 27, 'rec_avg_loss': '0.7613'}
+{'epoch': 28, 'rec_avg_loss': '0.7491'}
+{'epoch': 29, 'rec_avg_loss': '0.7423'}
+{'epoch': 30, 'rec_avg_loss': '0.7456'}
+{'epoch': 31, 'rec_avg_loss': '0.7427'}
+{'epoch': 32, 'rec_avg_loss': '0.7558'}
+{'epoch': 33, 'rec_avg_loss': '0.7509'}
+{'epoch': 34, 'rec_avg_loss': '0.7399'}
+{'epoch': 35, 'rec_avg_loss': '0.7431'}
+{'epoch': 36, 'rec_avg_loss': '0.7402'}
+{'epoch': 37, 'rec_avg_loss': '0.7582'}
+{'epoch': 38, 'rec_avg_loss': '0.7335'}
+{'epoch': 39, 'rec_avg_loss': '0.7347'}
+{'epoch': 40, 'rec_avg_loss': '0.7515'}
+{'epoch': 41, 'rec_avg_loss': '0.7293'}
+{'epoch': 42, 'rec_avg_loss': '0.7308'}
+{'epoch': 43, 'rec_avg_loss': '0.7332'}
+{'epoch': 44, 'rec_avg_loss': '0.7229'}
+{'epoch': 45, 'rec_avg_loss': '0.7318'}
+{'epoch': 46, 'rec_avg_loss': '0.7350'}
+{'epoch': 47, 'rec_avg_loss': '0.7280'}
+{'epoch': 48, 'rec_avg_loss': '0.7251'}
+{'epoch': 49, 'rec_avg_loss': '0.7379'}
+{'epoch': 50, 'rec_avg_loss': '0.7297'}
+{'epoch': 51, 'rec_avg_loss': '0.7087'}
+{'epoch': 52, 'rec_avg_loss': '0.7287'}
+{'epoch': 53, 'rec_avg_loss': '0.7233'}
+{'epoch': 54, 'rec_avg_loss': '0.7177'}
+{'epoch': 55, 'rec_avg_loss': '0.7215'}
+{'epoch': 56, 'rec_avg_loss': '0.7176'}
+{'epoch': 57, 'rec_avg_loss': '0.7232'}
+{'epoch': 58, 'rec_avg_loss': '0.7138'}
+{'epoch': 59, 'rec_avg_loss': '0.7112'}
+{'epoch': 60, 'rec_avg_loss': '0.7248'}
+{'epoch': 61, 'rec_avg_loss': '0.7199'}
+{'epoch': 62, 'rec_avg_loss': '0.7178'}
+{'epoch': 63, 'rec_avg_loss': '0.7244'}
+{'epoch': 64, 'rec_avg_loss': '0.7073'}
+{'epoch': 65, 'rec_avg_loss': '0.7291'}
+{'epoch': 66, 'rec_avg_loss': '0.7093'}
+{'epoch': 67, 'rec_avg_loss': '0.7139'}
+{'epoch': 68, 'rec_avg_loss': '0.7129'}
+{'epoch': 69, 'rec_avg_loss': '0.7048'}
+{'epoch': 70, 'rec_avg_loss': '0.7035'}
+{'epoch': 71, 'rec_avg_loss': '0.7058'}
+{'epoch': 72, 'rec_avg_loss': '0.7043'}
+{'epoch': 73, 'rec_avg_loss': '0.7054'}
+{'epoch': 74, 'rec_avg_loss': '0.7160'}
+{'epoch': 75, 'rec_avg_loss': '0.7123'}
+{'epoch': 76, 'rec_avg_loss': '0.7100'}
+{'epoch': 77, 'rec_avg_loss': '0.6958'}
+{'epoch': 78, 'rec_avg_loss': '0.6916'}
+{'epoch': 79, 'rec_avg_loss': '0.7267'}
+{'epoch': 80, 'rec_avg_loss': '0.7058'}
+{'epoch': 81, 'rec_avg_loss': '0.6952'}
+{'epoch': 82, 'rec_avg_loss': '0.7003'}
+{'epoch': 83, 'rec_avg_loss': '0.6950'}
+{'epoch': 84, 'rec_avg_loss': '0.7025'}
+{'epoch': 85, 'rec_avg_loss': '0.6892'}
+{'epoch': 86, 'rec_avg_loss': '0.7042'}
+{'epoch': 87, 'rec_avg_loss': '0.7050'}
+{'epoch': 88, 'rec_avg_loss': '0.6988'}
+{'epoch': 89, 'rec_avg_loss': '0.7118'}
+{'epoch': 90, 'rec_avg_loss': '0.7098'}
+{'epoch': 91, 'rec_avg_loss': '0.7026'}
+{'epoch': 92, 'rec_avg_loss': '0.7004'}
+{'epoch': 93, 'rec_avg_loss': '0.6912'}
+{'epoch': 94, 'rec_avg_loss': '0.6879'}
+{'epoch': 95, 'rec_avg_loss': '0.6852'}
+{'epoch': 96, 'rec_avg_loss': '0.6855'}
+{'epoch': 97, 'rec_avg_loss': '0.6924'}
+{'epoch': 98, 'rec_avg_loss': '0.7032'}
+{'epoch': 99, 'rec_avg_loss': '0.6969'}
+{'epoch': 100, 'rec_avg_loss': '0.6948'}
+{'epoch': 101, 'rec_avg_loss': '0.6823'}
+{'Epoch': 101, 'Overall_HIT@5': '0.0559', 'Overall_NDCG@5': '0.0394', 'Head_Item_HIT@5': '0.0649', 'Head_Item_NDCG@5': '0.0440', 'Tail_Item_HIT@5': '0.0491', 'Tail_Item_NDCG@5': '0.0359', 'Head_User_HIT@5': '0.0510', 'Head_User_NDCG@5': '0.0353', 'Tail_User_HIT@5': '0.0571', 'Tail_User_NDCG@5': '0.0404'}
+{'Epoch': 101, 'Overall_HIT@10': '0.0770', 'Overall_NDCG@10': '0.0461', 'Head_Item_HIT@10': '0.0958', 'Head_Item_NDCG@10': '0.0538', 'Tail_Item_HIT@10': '0.0627', 'Tail_Item_NDCG@10': '0.0403', 'Head_User_HIT@10': '0.0755', 'Head_User_NDCG@10': '0.0431', 'Tail_User_HIT@10': '0.0773', 'Tail_User_NDCG@10': '0.0469'}
+{'Epoch': 101, 'Overall_HIT@20': '0.1011', 'Overall_NDCG@20': '0.0522', 'Head_Item_HIT@20': '0.1350', 'Head_Item_NDCG@20': '0.0636', 'Tail_Item_HIT@20': '0.0756', 'Tail_Item_NDCG@20': '0.0436', 'Head_User_HIT@20': '0.1079', 'Head_User_NDCG@20': '0.0512', 'Tail_User_HIT@20': '0.0994', 'Tail_User_NDCG@20': '0.0524'}
+{'epoch': 102, 'rec_avg_loss': '0.7032'}
+{'Epoch': 102, 'Overall_HIT@5': '0.0554', 'Overall_NDCG@5': '0.0391', 'Head_Item_HIT@5': '0.0653', 'Head_Item_NDCG@5': '0.0438', 'Tail_Item_HIT@5': '0.0480', 'Tail_Item_NDCG@5': '0.0355', 'Head_User_HIT@5': '0.0505', 'Head_User_NDCG@5': '0.0355', 'Tail_User_HIT@5': '0.0567', 'Tail_User_NDCG@5': '0.0400'}
+{'Epoch': 102, 'Overall_HIT@10': '0.0762', 'Overall_NDCG@10': '0.0458', 'Head_Item_HIT@10': '0.0946', 'Head_Item_NDCG@10': '0.0533', 'Tail_Item_HIT@10': '0.0623', 'Tail_Item_NDCG@10': '0.0401', 'Head_User_HIT@10': '0.0742', 'Head_User_NDCG@10': '0.0431', 'Tail_User_HIT@10': '0.0767', 'Tail_User_NDCG@10': '0.0464'}
+{'Epoch': 102, 'Overall_HIT@20': '0.1013', 'Overall_NDCG@20': '0.0521', 'Head_Item_HIT@20': '0.1359', 'Head_Item_NDCG@20': '0.0638', 'Tail_Item_HIT@20': '0.0752', 'Tail_Item_NDCG@20': '0.0433', 'Head_User_HIT@20': '0.1105', 'Head_User_NDCG@20': '0.0523', 'Tail_User_HIT@20': '0.0990', 'Tail_User_NDCG@20': '0.0521'}
+{'epoch': 103, 'rec_avg_loss': '0.6997'}
+{'Epoch': 103, 'Overall_HIT@5': '0.0562', 'Overall_NDCG@5': '0.0394', 'Head_Item_HIT@5': '0.0668', 'Head_Item_NDCG@5': '0.0445', 'Tail_Item_HIT@5': '0.0482', 'Tail_Item_NDCG@5': '0.0356', 'Head_User_HIT@5': '0.0513', 'Head_User_NDCG@5': '0.0352', 'Tail_User_HIT@5': '0.0574', 'Tail_User_NDCG@5': '0.0405'}
+{'Epoch': 103, 'Overall_HIT@10': '0.0752', 'Overall_NDCG@10': '0.0456', 'Head_Item_HIT@10': '0.0946', 'Head_Item_NDCG@10': '0.0535', 'Tail_Item_HIT@10': '0.0605', 'Tail_Item_NDCG@10': '0.0396', 'Head_User_HIT@10': '0.0752', 'Head_User_NDCG@10': '0.0430', 'Tail_User_HIT@10': '0.0751', 'Tail_User_NDCG@10': '0.0462'}
+{'Epoch': 103, 'Overall_HIT@20': '0.1002', 'Overall_NDCG@20': '0.0519', 'Head_Item_HIT@20': '0.1346', 'Head_Item_NDCG@20': '0.0636', 'Tail_Item_HIT@20': '0.0742', 'Tail_Item_NDCG@20': '0.0430', 'Head_User_HIT@20': '0.1170', 'Head_User_NDCG@20': '0.0535', 'Tail_User_HIT@20': '0.0960', 'Tail_User_NDCG@20': '0.0515'}
+{'epoch': 104, 'rec_avg_loss': '0.6848'}
+{'Epoch': 104, 'Overall_HIT@5': '0.0549', 'Overall_NDCG@5': '0.0385', 'Head_Item_HIT@5': '0.0648', 'Head_Item_NDCG@5': '0.0428', 'Tail_Item_HIT@5': '0.0475', 'Tail_Item_NDCG@5': '0.0353', 'Head_User_HIT@5': '0.0515', 'Head_User_NDCG@5': '0.0351', 'Tail_User_HIT@5': '0.0558', 'Tail_User_NDCG@5': '0.0394'}
+{'Epoch': 104, 'Overall_HIT@10': '0.0772', 'Overall_NDCG@10': '0.0457', 'Head_Item_HIT@10': '0.0973', 'Head_Item_NDCG@10': '0.0533', 'Tail_Item_HIT@10': '0.0621', 'Tail_Item_NDCG@10': '0.0400', 'Head_User_HIT@10': '0.0799', 'Head_User_NDCG@10': '0.0441', 'Tail_User_HIT@10': '0.0766', 'Tail_User_NDCG@10': '0.0461'}
+{'Epoch': 104, 'Overall_HIT@20': '0.1000', 'Overall_NDCG@20': '0.0514', 'Head_Item_HIT@20': '0.1318', 'Head_Item_NDCG@20': '0.0619', 'Tail_Item_HIT@20': '0.0760', 'Tail_Item_NDCG@20': '0.0435', 'Head_User_HIT@20': '0.1128', 'Head_User_NDCG@20': '0.0524', 'Tail_User_HIT@20': '0.0968', 'Tail_User_NDCG@20': '0.0512'}
+{'epoch': 105, 'rec_avg_loss': '0.6855'}
+{'Epoch': 105, 'Overall_HIT@5': '0.0566', 'Overall_NDCG@5': '0.0399', 'Head_Item_HIT@5': '0.0685', 'Head_Item_NDCG@5': '0.0461', 'Tail_Item_HIT@5': '0.0476', 'Tail_Item_NDCG@5': '0.0352', 'Head_User_HIT@5': '0.0538', 'Head_User_NDCG@5': '0.0371', 'Tail_User_HIT@5': '0.0573', 'Tail_User_NDCG@5': '0.0406'}
+{'Epoch': 105, 'Overall_HIT@10': '0.0770', 'Overall_NDCG@10': '0.0465', 'Head_Item_HIT@10': '0.0971', 'Head_Item_NDCG@10': '0.0554', 'Tail_Item_HIT@10': '0.0618', 'Tail_Item_NDCG@10': '0.0398', 'Head_User_HIT@10': '0.0770', 'Head_User_NDCG@10': '0.0445', 'Tail_User_HIT@10': '0.0770', 'Tail_User_NDCG@10': '0.0470'}
+{'Epoch': 105, 'Overall_HIT@20': '0.1011', 'Overall_NDCG@20': '0.0526', 'Head_Item_HIT@20': '0.1351', 'Head_Item_NDCG@20': '0.0649', 'Tail_Item_HIT@20': '0.0755', 'Tail_Item_NDCG@20': '0.0432', 'Head_User_HIT@20': '0.1175', 'Head_User_NDCG@20': '0.0546', 'Tail_User_HIT@20': '0.0970', 'Tail_User_NDCG@20': '0.0520'}
+{'epoch': 106, 'rec_avg_loss': '0.6852'}
+{'Epoch': 106, 'Overall_HIT@5': '0.0563', 'Overall_NDCG@5': '0.0400', 'Head_Item_HIT@5': '0.0671', 'Head_Item_NDCG@5': '0.0456', 'Tail_Item_HIT@5': '0.0481', 'Tail_Item_NDCG@5': '0.0357', 'Head_User_HIT@5': '0.0549', 'Head_User_NDCG@5': '0.0370', 'Tail_User_HIT@5': '0.0566', 'Tail_User_NDCG@5': '0.0407'}
+{'Epoch': 106, 'Overall_HIT@10': '0.0770', 'Overall_NDCG@10': '0.0467', 'Head_Item_HIT@10': '0.0965', 'Head_Item_NDCG@10': '0.0552', 'Tail_Item_HIT@10': '0.0622', 'Tail_Item_NDCG@10': '0.0403', 'Head_User_HIT@10': '0.0811', 'Head_User_NDCG@10': '0.0453', 'Tail_User_HIT@10': '0.0759', 'Tail_User_NDCG@10': '0.0470'}
+{'Epoch': 106, 'Overall_HIT@20': '0.1013', 'Overall_NDCG@20': '0.0528', 'Head_Item_HIT@20': '0.1351', 'Head_Item_NDCG@20': '0.0649', 'Tail_Item_HIT@20': '0.0758', 'Tail_Item_NDCG@20': '0.0437', 'Head_User_HIT@20': '0.1167', 'Head_User_NDCG@20': '0.0543', 'Tail_User_HIT@20': '0.0975', 'Tail_User_NDCG@20': '0.0525'}
+{'epoch': 107, 'rec_avg_loss': '0.6890'}
+{'Epoch': 107, 'Overall_HIT@5': '0.0565', 'Overall_NDCG@5': '0.0399', 'Head_Item_HIT@5': '0.0667', 'Head_Item_NDCG@5': '0.0451', 'Tail_Item_HIT@5': '0.0488', 'Tail_Item_NDCG@5': '0.0360', 'Head_User_HIT@5': '0.0549', 'Head_User_NDCG@5': '0.0379', 'Tail_User_HIT@5': '0.0569', 'Tail_User_NDCG@5': '0.0405'}
+{'Epoch': 107, 'Overall_HIT@10': '0.0774', 'Overall_NDCG@10': '0.0467', 'Head_Item_HIT@10': '0.0977', 'Head_Item_NDCG@10': '0.0551', 'Tail_Item_HIT@10': '0.0621', 'Tail_Item_NDCG@10': '0.0403', 'Head_User_HIT@10': '0.0835', 'Head_User_NDCG@10': '0.0469', 'Tail_User_HIT@10': '0.0759', 'Tail_User_NDCG@10': '0.0466'}
+{'Epoch': 107, 'Overall_HIT@20': '0.1014', 'Overall_NDCG@20': '0.0527', 'Head_Item_HIT@20': '0.1367', 'Head_Item_NDCG@20': '0.0649', 'Tail_Item_HIT@20': '0.0748', 'Tail_Item_NDCG@20': '0.0435', 'Head_User_HIT@20': '0.1175', 'Head_User_NDCG@20': '0.0555', 'Tail_User_HIT@20': '0.0974', 'Tail_User_NDCG@20': '0.0520'}
+{'epoch': 108, 'rec_avg_loss': '0.6905'}
+{'Epoch': 108, 'Overall_HIT@5': '0.0559', 'Overall_NDCG@5': '0.0399', 'Head_Item_HIT@5': '0.0656', 'Head_Item_NDCG@5': '0.0455', 'Tail_Item_HIT@5': '0.0485', 'Tail_Item_NDCG@5': '0.0356', 'Head_User_HIT@5': '0.0510', 'Head_User_NDCG@5': '0.0355', 'Tail_User_HIT@5': '0.0571', 'Tail_User_NDCG@5': '0.0410'}
+{'Epoch': 108, 'Overall_HIT@10': '0.0761', 'Overall_NDCG@10': '0.0464', 'Head_Item_HIT@10': '0.0953', 'Head_Item_NDCG@10': '0.0551', 'Tail_Item_HIT@10': '0.0616', 'Tail_Item_NDCG@10': '0.0399', 'Head_User_HIT@10': '0.0783', 'Head_User_NDCG@10': '0.0442', 'Tail_User_HIT@10': '0.0756', 'Tail_User_NDCG@10': '0.0470'}
+{'Epoch': 108, 'Overall_HIT@20': '0.1021', 'Overall_NDCG@20': '0.0530', 'Head_Item_HIT@20': '0.1379', 'Head_Item_NDCG@20': '0.0658', 'Tail_Item_HIT@20': '0.0750', 'Tail_Item_NDCG@20': '0.0433', 'Head_User_HIT@20': '0.1167', 'Head_User_NDCG@20': '0.0539', 'Tail_User_HIT@20': '0.0984', 'Tail_User_NDCG@20': '0.0527'}
+{'epoch': 109, 'rec_avg_loss': '0.6835'}
+{'Epoch': 109, 'Overall_HIT@5': '0.0567', 'Overall_NDCG@5': '0.0399', 'Head_Item_HIT@5': '0.0678', 'Head_Item_NDCG@5': '0.0456', 'Tail_Item_HIT@5': '0.0483', 'Tail_Item_NDCG@5': '0.0356', 'Head_User_HIT@5': '0.0536', 'Head_User_NDCG@5': '0.0366', 'Tail_User_HIT@5': '0.0574', 'Tail_User_NDCG@5': '0.0407'}
+{'Epoch': 109, 'Overall_HIT@10': '0.0768', 'Overall_NDCG@10': '0.0464', 'Head_Item_HIT@10': '0.0970', 'Head_Item_NDCG@10': '0.0550', 'Tail_Item_HIT@10': '0.0616', 'Tail_Item_NDCG@10': '0.0400', 'Head_User_HIT@10': '0.0786', 'Head_User_NDCG@10': '0.0446', 'Tail_User_HIT@10': '0.0764', 'Tail_User_NDCG@10': '0.0469'}
+{'Epoch': 109, 'Overall_HIT@20': '0.1005', 'Overall_NDCG@20': '0.0524', 'Head_Item_HIT@20': '0.1345', 'Head_Item_NDCG@20': '0.0644', 'Tail_Item_HIT@20': '0.0748', 'Tail_Item_NDCG@20': '0.0433', 'Head_User_HIT@20': '0.1121', 'Head_User_NDCG@20': '0.0532', 'Tail_User_HIT@20': '0.0976', 'Tail_User_NDCG@20': '0.0522'}
+{'epoch': 110, 'rec_avg_loss': '0.6843'}
+{'Epoch': 110, 'Overall_HIT@5': '0.0569', 'Overall_NDCG@5': '0.0405', 'Head_Item_HIT@5': '0.0689', 'Head_Item_NDCG@5': '0.0477', 'Tail_Item_HIT@5': '0.0479', 'Tail_Item_NDCG@5': '0.0351', 'Head_User_HIT@5': '0.0528', 'Head_User_NDCG@5': '0.0355', 'Tail_User_HIT@5': '0.0580', 'Tail_User_NDCG@5': '0.0417'}
+{'Epoch': 110, 'Overall_HIT@10': '0.0768', 'Overall_NDCG@10': '0.0469', 'Head_Item_HIT@10': '0.0980', 'Head_Item_NDCG@10': '0.0570', 'Tail_Item_HIT@10': '0.0608', 'Tail_Item_NDCG@10': '0.0393', 'Head_User_HIT@10': '0.0783', 'Head_User_NDCG@10': '0.0438', 'Tail_User_HIT@10': '0.0764', 'Tail_User_NDCG@10': '0.0477'}
+{'Epoch': 110, 'Overall_HIT@20': '0.1015', 'Overall_NDCG@20': '0.0531', 'Head_Item_HIT@20': '0.1383', 'Head_Item_NDCG@20': '0.0672', 'Tail_Item_HIT@20': '0.0737', 'Tail_Item_NDCG@20': '0.0425', 'Head_User_HIT@20': '0.1167', 'Head_User_NDCG@20': '0.0534', 'Tail_User_HIT@20': '0.0977', 'Tail_User_NDCG@20': '0.0531'}
+{'epoch': 111, 'rec_avg_loss': '0.6896'}
+{'Epoch': 111, 'Overall_HIT@5': '0.0564', 'Overall_NDCG@5': '0.0402', 'Head_Item_HIT@5': '0.0668', 'Head_Item_NDCG@5': '0.0468', 'Tail_Item_HIT@5': '0.0484', 'Tail_Item_NDCG@5': '0.0352', 'Head_User_HIT@5': '0.0533', 'Head_User_NDCG@5': '0.0367', 'Tail_User_HIT@5': '0.0571', 'Tail_User_NDCG@5': '0.0411'}
+{'Epoch': 111, 'Overall_HIT@10': '0.0762', 'Overall_NDCG@10': '0.0466', 'Head_Item_HIT@10': '0.0958', 'Head_Item_NDCG@10': '0.0561', 'Tail_Item_HIT@10': '0.0615', 'Tail_Item_NDCG@10': '0.0394', 'Head_User_HIT@10': '0.0747', 'Head_User_NDCG@10': '0.0435', 'Tail_User_HIT@10': '0.0766', 'Tail_User_NDCG@10': '0.0474'}
+{'Epoch': 111, 'Overall_HIT@20': '0.1021', 'Overall_NDCG@20': '0.0531', 'Head_Item_HIT@20': '0.1382', 'Head_Item_NDCG@20': '0.0668', 'Tail_Item_HIT@20': '0.0748', 'Tail_Item_NDCG@20': '0.0428', 'Head_User_HIT@20': '0.1162', 'Head_User_NDCG@20': '0.0540', 'Tail_User_HIT@20': '0.0986', 'Tail_User_NDCG@20': '0.0529'}
+{'epoch': 112, 'rec_avg_loss': '0.6875'}
+{'Epoch': 112, 'Overall_HIT@5': '0.0564', 'Overall_NDCG@5': '0.0394', 'Head_Item_HIT@5': '0.0665', 'Head_Item_NDCG@5': '0.0445', 'Tail_Item_HIT@5': '0.0487', 'Tail_Item_NDCG@5': '0.0356', 'Head_User_HIT@5': '0.0536', 'Head_User_NDCG@5': '0.0358', 'Tail_User_HIT@5': '0.0571', 'Tail_User_NDCG@5': '0.0403'}
+{'Epoch': 112, 'Overall_HIT@10': '0.0761', 'Overall_NDCG@10': '0.0458', 'Head_Item_HIT@10': '0.0956', 'Head_Item_NDCG@10': '0.0539', 'Tail_Item_HIT@10': '0.0614', 'Tail_Item_NDCG@10': '0.0397', 'Head_User_HIT@10': '0.0786', 'Head_User_NDCG@10': '0.0439', 'Tail_User_HIT@10': '0.0755', 'Tail_User_NDCG@10': '0.0463'}
+{'Epoch': 112, 'Overall_HIT@20': '0.1009', 'Overall_NDCG@20': '0.0521', 'Head_Item_HIT@20': '0.1352', 'Head_Item_NDCG@20': '0.0639', 'Tail_Item_HIT@20': '0.0750', 'Tail_Item_NDCG@20': '0.0432', 'Head_User_HIT@20': '0.1167', 'Head_User_NDCG@20': '0.0535', 'Tail_User_HIT@20': '0.0970', 'Tail_User_NDCG@20': '0.0517'}
+{'epoch': 113, 'rec_avg_loss': '0.6955'}
+{'Epoch': 113, 'Overall_HIT@5': '0.0568', 'Overall_NDCG@5': '0.0403', 'Head_Item_HIT@5': '0.0682', 'Head_Item_NDCG@5': '0.0464', 'Tail_Item_HIT@5': '0.0482', 'Tail_Item_NDCG@5': '0.0357', 'Head_User_HIT@5': '0.0544', 'Head_User_NDCG@5': '0.0373', 'Tail_User_HIT@5': '0.0574', 'Tail_User_NDCG@5': '0.0410'}
+{'Epoch': 113, 'Overall_HIT@10': '0.0771', 'Overall_NDCG@10': '0.0468', 'Head_Item_HIT@10': '0.0958', 'Head_Item_NDCG@10': '0.0553', 'Tail_Item_HIT@10': '0.0629', 'Tail_Item_NDCG@10': '0.0405', 'Head_User_HIT@10': '0.0788', 'Head_User_NDCG@10': '0.0452', 'Tail_User_HIT@10': '0.0766', 'Tail_User_NDCG@10': '0.0472'}
+{'Epoch': 113, 'Overall_HIT@20': '0.1015', 'Overall_NDCG@20': '0.0530', 'Head_Item_HIT@20': '0.1357', 'Head_Item_NDCG@20': '0.0653', 'Tail_Item_HIT@20': '0.0757', 'Tail_Item_NDCG@20': '0.0437', 'Head_User_HIT@20': '0.1175', 'Head_User_NDCG@20': '0.0549', 'Tail_User_HIT@20': '0.0976', 'Tail_User_NDCG@20': '0.0525'}
+{'epoch': 114, 'rec_avg_loss': '0.6950'}
+{'Epoch': 114, 'Overall_HIT@5': '0.0557', 'Overall_NDCG@5': '0.0393', 'Head_Item_HIT@5': '0.0676', 'Head_Item_NDCG@5': '0.0453', 'Tail_Item_HIT@5': '0.0467', 'Tail_Item_NDCG@5': '0.0348', 'Head_User_HIT@5': '0.0526', 'Head_User_NDCG@5': '0.0360', 'Tail_User_HIT@5': '0.0565', 'Tail_User_NDCG@5': '0.0401'}
+{'Epoch': 114, 'Overall_HIT@10': '0.0766', 'Overall_NDCG@10': '0.0460', 'Head_Item_HIT@10': '0.0974', 'Head_Item_NDCG@10': '0.0548', 'Tail_Item_HIT@10': '0.0608', 'Tail_Item_NDCG@10': '0.0393', 'Head_User_HIT@10': '0.0770', 'Head_User_NDCG@10': '0.0439', 'Tail_User_HIT@10': '0.0764', 'Tail_User_NDCG@10': '0.0465'}
+{'Epoch': 114, 'Overall_HIT@20': '0.1008', 'Overall_NDCG@20': '0.0521', 'Head_Item_HIT@20': '0.1374', 'Head_Item_NDCG@20': '0.0649', 'Tail_Item_HIT@20': '0.0732', 'Tail_Item_NDCG@20': '0.0425', 'Head_User_HIT@20': '0.1133', 'Head_User_NDCG@20': '0.0530', 'Tail_User_HIT@20': '0.0977', 'Tail_User_NDCG@20': '0.0519'}
+{'epoch': 115, 'rec_avg_loss': '0.6881'}
+{'Epoch': 115, 'Overall_HIT@5': '0.0551', 'Overall_NDCG@5': '0.0393', 'Head_Item_HIT@5': '0.0656', 'Head_Item_NDCG@5': '0.0447', 'Tail_Item_HIT@5': '0.0472', 'Tail_Item_NDCG@5': '0.0352', 'Head_User_HIT@5': '0.0520', 'Head_User_NDCG@5': '0.0356', 'Tail_User_HIT@5': '0.0559', 'Tail_User_NDCG@5': '0.0402'}
+{'Epoch': 115, 'Overall_HIT@10': '0.0771', 'Overall_NDCG@10': '0.0464', 'Head_Item_HIT@10': '0.0977', 'Head_Item_NDCG@10': '0.0550', 'Tail_Item_HIT@10': '0.0616', 'Tail_Item_NDCG@10': '0.0398', 'Head_User_HIT@10': '0.0778', 'Head_User_NDCG@10': '0.0439', 'Tail_User_HIT@10': '0.0769', 'Tail_User_NDCG@10': '0.0470'}
+{'Epoch': 115, 'Overall_HIT@20': '0.1016', 'Overall_NDCG@20': '0.0525', 'Head_Item_HIT@20': '0.1363', 'Head_Item_NDCG@20': '0.0647', 'Tail_Item_HIT@20': '0.0755', 'Tail_Item_NDCG@20': '0.0434', 'Head_User_HIT@20': '0.1167', 'Head_User_NDCG@20': '0.0536', 'Tail_User_HIT@20': '0.0979', 'Tail_User_NDCG@20': '0.0523'}
+{'epoch': 116, 'rec_avg_loss': '0.6855'}
+{'Epoch': 116, 'Overall_HIT@5': '0.0559', 'Overall_NDCG@5': '0.0391', 'Head_Item_HIT@5': '0.0660', 'Head_Item_NDCG@5': '0.0448', 'Tail_Item_HIT@5': '0.0483', 'Tail_Item_NDCG@5': '0.0348', 'Head_User_HIT@5': '0.0528', 'Head_User_NDCG@5': '0.0356', 'Tail_User_HIT@5': '0.0567', 'Tail_User_NDCG@5': '0.0400'}
+{'Epoch': 116, 'Overall_HIT@10': '0.0767', 'Overall_NDCG@10': '0.0458', 'Head_Item_HIT@10': '0.0950', 'Head_Item_NDCG@10': '0.0542', 'Tail_Item_HIT@10': '0.0629', 'Tail_Item_NDCG@10': '0.0395', 'Head_User_HIT@10': '0.0801', 'Head_User_NDCG@10': '0.0443', 'Tail_User_HIT@10': '0.0759', 'Tail_User_NDCG@10': '0.0462'}
+{'Epoch': 116, 'Overall_HIT@20': '0.1013', 'Overall_NDCG@20': '0.0521', 'Head_Item_HIT@20': '0.1350', 'Head_Item_NDCG@20': '0.0643', 'Tail_Item_HIT@20': '0.0759', 'Tail_Item_NDCG@20': '0.0428', 'Head_User_HIT@20': '0.1170', 'Head_User_NDCG@20': '0.0536', 'Tail_User_HIT@20': '0.0974', 'Tail_User_NDCG@20': '0.0517'}
+{'epoch': 117, 'rec_avg_loss': '0.6948'}
+{'Epoch': 117, 'Overall_HIT@5': '0.0562', 'Overall_NDCG@5': '0.0398', 'Head_Item_HIT@5': '0.0667', 'Head_Item_NDCG@5': '0.0458', 'Tail_Item_HIT@5': '0.0482', 'Tail_Item_NDCG@5': '0.0352', 'Head_User_HIT@5': '0.0505', 'Head_User_NDCG@5': '0.0349', 'Tail_User_HIT@5': '0.0576', 'Tail_User_NDCG@5': '0.0410'}
+{'Epoch': 117, 'Overall_HIT@10': '0.0756', 'Overall_NDCG@10': '0.0460', 'Head_Item_HIT@10': '0.0940', 'Head_Item_NDCG@10': '0.0546', 'Tail_Item_HIT@10': '0.0617', 'Tail_Item_NDCG@10': '0.0396', 'Head_User_HIT@10': '0.0755', 'Head_User_NDCG@10': '0.0429', 'Tail_User_HIT@10': '0.0757', 'Tail_User_NDCG@10': '0.0468'}
+{'Epoch': 117, 'Overall_HIT@20': '0.1007', 'Overall_NDCG@20': '0.0524', 'Head_Item_HIT@20': '0.1324', 'Head_Item_NDCG@20': '0.0643', 'Tail_Item_HIT@20': '0.0767', 'Tail_Item_NDCG@20': '0.0434', 'Head_User_HIT@20': '0.1133', 'Head_User_NDCG@20': '0.0525', 'Tail_User_HIT@20': '0.0975', 'Tail_User_NDCG@20': '0.0523'}
+{'epoch': 118, 'rec_avg_loss': '0.6921'}
+{'Epoch': 118, 'Overall_HIT@5': '0.0556', 'Overall_NDCG@5': '0.0391', 'Head_Item_HIT@5': '0.0658', 'Head_Item_NDCG@5': '0.0449', 'Tail_Item_HIT@5': '0.0479', 'Tail_Item_NDCG@5': '0.0347', 'Head_User_HIT@5': '0.0526', 'Head_User_NDCG@5': '0.0356', 'Tail_User_HIT@5': '0.0563', 'Tail_User_NDCG@5': '0.0400'}
+{'Epoch': 118, 'Overall_HIT@10': '0.0773', 'Overall_NDCG@10': '0.0461', 'Head_Item_HIT@10': '0.0961', 'Head_Item_NDCG@10': '0.0546', 'Tail_Item_HIT@10': '0.0631', 'Tail_Item_NDCG@10': '0.0396', 'Head_User_HIT@10': '0.0799', 'Head_User_NDCG@10': '0.0443', 'Tail_User_HIT@10': '0.0766', 'Tail_User_NDCG@10': '0.0465'}
+{'Epoch': 118, 'Overall_HIT@20': '0.1023', 'Overall_NDCG@20': '0.0523', 'Head_Item_HIT@20': '0.1367', 'Head_Item_NDCG@20': '0.0648', 'Tail_Item_HIT@20': '0.0763', 'Tail_Item_NDCG@20': '0.0429', 'Head_User_HIT@20': '0.1182', 'Head_User_NDCG@20': '0.0539', 'Tail_User_HIT@20': '0.0983', 'Tail_User_NDCG@20': '0.0519'}
+{'epoch': 119, 'rec_avg_loss': '0.6970'}
+{'Epoch': 119, 'Overall_HIT@5': '0.0547', 'Overall_NDCG@5': '0.0387', 'Head_Item_HIT@5': '0.0641', 'Head_Item_NDCG@5': '0.0443', 'Tail_Item_HIT@5': '0.0475', 'Tail_Item_NDCG@5': '0.0344', 'Head_User_HIT@5': '0.0528', 'Head_User_NDCG@5': '0.0359', 'Tail_User_HIT@5': '0.0551', 'Tail_User_NDCG@5': '0.0394'}
+{'Epoch': 119, 'Overall_HIT@10': '0.0760', 'Overall_NDCG@10': '0.0456', 'Head_Item_HIT@10': '0.0947', 'Head_Item_NDCG@10': '0.0542', 'Tail_Item_HIT@10': '0.0618', 'Tail_Item_NDCG@10': '0.0391', 'Head_User_HIT@10': '0.0775', 'Head_User_NDCG@10': '0.0438', 'Tail_User_HIT@10': '0.0756', 'Tail_User_NDCG@10': '0.0460'}
+{'Epoch': 119, 'Overall_HIT@20': '0.1021', 'Overall_NDCG@20': '0.0522', 'Head_Item_HIT@20': '0.1351', 'Head_Item_NDCG@20': '0.0644', 'Tail_Item_HIT@20': '0.0771', 'Tail_Item_NDCG@20': '0.0429', 'Head_User_HIT@20': '0.1172', 'Head_User_NDCG@20': '0.0537', 'Tail_User_HIT@20': '0.0983', 'Tail_User_NDCG@20': '0.0518'}
+{'epoch': 120, 'rec_avg_loss': '0.6894'}
+{'Epoch': 120, 'Overall_HIT@5': '0.0569', 'Overall_NDCG@5': '0.0396', 'Head_Item_HIT@5': '0.0691', 'Head_Item_NDCG@5': '0.0465', 'Tail_Item_HIT@5': '0.0477', 'Tail_Item_NDCG@5': '0.0344', 'Head_User_HIT@5': '0.0554', 'Head_User_NDCG@5': '0.0374', 'Tail_User_HIT@5': '0.0573', 'Tail_User_NDCG@5': '0.0402'}
+{'Epoch': 120, 'Overall_HIT@10': '0.0778', 'Overall_NDCG@10': '0.0464', 'Head_Item_HIT@10': '0.0985', 'Head_Item_NDCG@10': '0.0559', 'Tail_Item_HIT@10': '0.0622', 'Tail_Item_NDCG@10': '0.0391', 'Head_User_HIT@10': '0.0811', 'Head_User_NDCG@10': '0.0457', 'Tail_User_HIT@10': '0.0769', 'Tail_User_NDCG@10': '0.0465'}
+{'Epoch': 120, 'Overall_HIT@20': '0.1013', 'Overall_NDCG@20': '0.0523', 'Head_Item_HIT@20': '0.1340', 'Head_Item_NDCG@20': '0.0650', 'Tail_Item_HIT@20': '0.0766', 'Tail_Item_NDCG@20': '0.0427', 'Head_User_HIT@20': '0.1175', 'Head_User_NDCG@20': '0.0549', 'Tail_User_HIT@20': '0.0972', 'Tail_User_NDCG@20': '0.0517'}
+{'Epoch': 0, 'Overall_HIT@5': '0.0479', 'Overall_NDCG@5': '0.0339', 'Head_Item_HIT@5': '0.0592', 'Head_Item_NDCG@5': '0.0409', 'Tail_Item_HIT@5': '0.0409', 'Tail_Item_NDCG@5': '0.0296', 'Head_User_HIT@5': '0.0440', 'Head_User_NDCG@5': '0.0311', 'Tail_User_HIT@5': '0.0488', 'Tail_User_NDCG@5': '0.0346'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0664', 'Overall_NDCG@10': '0.0399', 'Head_Item_HIT@10': '0.0883', 'Head_Item_NDCG@10': '0.0502', 'Tail_Item_HIT@10': '0.0528', 'Tail_Item_NDCG@10': '0.0335', 'Head_User_HIT@10': '0.0649', 'Head_User_NDCG@10': '0.0379', 'Tail_User_HIT@10': '0.0667', 'Tail_User_NDCG@10': '0.0404'}
+{'Epoch': 0, 'Overall_HIT@20': '0.0869', 'Overall_NDCG@20': '0.0451', 'Head_Item_HIT@20': '0.1218', 'Head_Item_NDCG@20': '0.0587', 'Tail_Item_HIT@20': '0.0653', 'Tail_Item_NDCG@20': '0.0367', 'Head_User_HIT@20': '0.0933', 'Head_User_NDCG@20': '0.0451', 'Tail_User_HIT@20': '0.0853', 'Tail_User_NDCG@20': '0.0451'}
+FMLPRec-Toys_and_Games-1
+{'Epoch': 0, 'Overall_HIT@5': '0.0479', 'Overall_NDCG@5': '0.0339', 'Head_Item_HIT@5': '0.0592', 'Head_Item_NDCG@5': '0.0409', 'Tail_Item_HIT@5': '0.0409', 'Tail_Item_NDCG@5': '0.0296', 'Head_User_HIT@5': '0.0440', 'Head_User_NDCG@5': '0.0311', 'Tail_User_HIT@5': '0.0488', 'Tail_User_NDCG@5': '0.0346'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0664', 'Overall_NDCG@10': '0.0399', 'Head_Item_HIT@10': '0.0883', 'Head_Item_NDCG@10': '0.0502', 'Tail_Item_HIT@10': '0.0528', 'Tail_Item_NDCG@10': '0.0335', 'Head_User_HIT@10': '0.0649', 'Head_User_NDCG@10': '0.0379', 'Tail_User_HIT@10': '0.0667', 'Tail_User_NDCG@10': '0.0404'}
+{'Epoch': 0, 'Overall_HIT@20': '0.0869', 'Overall_NDCG@20': '0.0451', 'Head_Item_HIT@20': '0.1218', 'Head_Item_NDCG@20': '0.0587', 'Tail_Item_HIT@20': '0.0653', 'Tail_Item_NDCG@20': '0.0367', 'Head_User_HIT@20': '0.0933', 'Head_User_NDCG@20': '0.0451', 'Tail_User_HIT@20': '0.0853', 'Tail_User_NDCG@20': '0.0451'}
+Total running time: 1054.04 seconds
+Average training time for epochs 0 to 100: 7.08 seconds/epoch
