@@ -1,6 +1,6 @@
 ## TADA
 
-Official source code for WWW 2026 paper: [Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation]()
+Official source code for WWW 2026 paper: [Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation](https://arxiv.org/abs/2601.10933)
 
 
 ## Directory Structure
@@ -52,5 +52,10 @@ We also provide log files and trained weights on these three datasets in the `sr
 
 Please cite our paper if you use this code.
 ```
-
+@inproceedings{dang2026tail,
+  title={Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation},
+  author={Dang, Yizhou and Wei, Zhifu and Huang, Minhan and Ma, Lianbo and Zhao, Jianzhe and Guo, Guibing and Wang, Xingwei},
+  journal={The Web Conference 2026},
+  year={2026}
+}
 ```
